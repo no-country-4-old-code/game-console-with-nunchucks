@@ -1,0 +1,43 @@
+Stückliste
+
+//======== Eagle
+
+Qty Value            Device             Package                Parts                                                                                                                             Description                
+1                    PINHD-1X2          1X02                   JP2                                                                                                                               PIN HEADER                 
+6                    PINHD-1X3          1X03                   JP4, JP_BLAU, JP_GRÜN, JP_NCHK_PLY1, JP_NCHK_PLY2, JP_ROT                                                                         PIN HEADER                 
+2                    PINHD-1X4          1X04                   NUNCHK1, NUNCHK2                                                                                                                  PIN HEADER                 
+1                    PINHD-1X8          1X08                   JP1                                                                                                                               PIN HEADER                 
+3   0,1µC            C-EU025-024X044    C025-024X044           C2, C5, C6                                                                                                                        CAPACITOR, European symbol 
+3   0,33µC           C-EU025-024X044    C025-024X044           C1, C7, C8                                                                                                                        CAPACITOR, European symbol 
+1   1,58k            R-EU_0204/7        0204/7                 R22                                                                                                                               RESISTOR, European symbol  
+6   1,5k             R-EU_0204/7        0204/7                 R11, R12, R13, R14, R20, R21                                                                                                      RESISTOR, European symbol  
+7   100 Ohm          R-EU_0204/7        0204/7                 R1, R2, R3, R4, R5, R6, R7                                                                                                        RESISTOR, European symbol  
+1   10k              R-EU_0204/7        0204/7                 R15                                                                                                                               RESISTOR, European symbol  
+2   22pF             C-EU025-024X044    C025-024X044           C3, C4                                                                                                                            CAPACITOR, European symbol 
+1   470              R-EU_0204/7        0204/7                 R8                                                                                                                                RESISTOR, European symbol  
+4   5,1k             R-EU_0204/7        0204/7                 R9, R10, R16, R17                                                                                                                 RESISTOR, European symbol  
+2   680 Ohm          R-EU_0204/7        0204/7                 R18, R19                                                                                                                          RESISTOR, European symbol  
+1   7805             78XXL              78XXL                  IC1                                                                                                                               VOLTAGE REGULATOR          
+2   8,6k             R-EU_0204/7        0204/7                 R23, R24                                                                                                                          RESISTOR, European symbol  
+2   ATMEGA 88-20 PU  ATMEGA8            ATMEGA8_PAC            U$1, U$2                                                                                                                                                     
+4   BC 640           2N4126             TO92-CBE               PNP-TRSOR#1, PNP-TRSOR#2, PNP-TRSOR#3, PNP-TRSOR#4                                                                                PNP Transistror            
+14  BS108            2N3819             TO92                   N-FET#1, N-FET#2, N-FET#3, N-FET#4, N-FET#5, N-FET#6, N-FET#7, N-FET#8, N-FET#9, N-FET#10, N-FET#11, N-FET#12, N-FET#13, N-FET#14 N-Channel Junction FET     
+1   LF 33 CV         78XXL              78XXL                  IC2                                                                                                                               VOLTAGE REGULATOR          
+1   QUARZ_PX0_DIP14  QUARZ_PX0_DIP14    QUARZ_PX0_DIP14_PAC    U$3                                                                                                                                                          
+4   SA 52-11 RT      SIEBEN_SEG_SA52-11 SIEBEN_SEG_SA52-11_PAC U$4, U$5, U$6, U$7                                                                                                                                           
+1   TASTER_1         TASTER_1           TASTER_1_PAC           U$8                                                                                                                                                          
+
+//========== Sonstiges 
+
+2  *	GS 28P-S		IC-Sockel für Atmega88
+5  *	MPE 087-1-003		Stiftleisten mit 2,54mm ( für Jumper )
+5  *	Jumper 2,54mm		Zur Auswahl Joystick/Beschleunigungssensor etc
+8  *	MPE 094-1-005		Buchsenleiste,1X05 2,54mm für Siebensegment Blöcke
+4  *	MPE 094-1-004		Buchsenleiste,1X04 2,54mm für Quarz und Nunchucks
+2  *	MPE 087-1-004		Stiftleiste,1X04 2,54mm für Nunchucks ( Besser wäre natürlich ein Adapter, so dass man die Nunchucks nicht aufschneiden muss )
+1  *	Tastschalter + gegebenfalls entsprechende Buchsenleisten ( z.B. FSM2JH + 2* MPE 094-1-003 )
+1  * 	DELOCK 65170		16 Pin, VGA-Buchse <-> Terminalblock. ( Erleichtert den Anschluss )
+
+//========== Stromversorgung
+1  *	PSAA 18U-090		Kompaktschaltnetzteil , 18 W , 9 V out
+1  *	HEBFL 21		Hohlstecker-Einbaubuchse, Flansch, Stift 2,1mm
