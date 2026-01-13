@@ -10,6 +10,8 @@ I translate the original documentation into english using AI and put it below.
 And yes.. I did a documentation.. but only because this was needed to publish the project on Heise.
 The original documentation with all the nice pictures is also in the repo.
 
+![GameConsole](/media/title_pic_komp.jpg)
+
 ## Documentation (Translated by AI)
 
 ## Project Overview
